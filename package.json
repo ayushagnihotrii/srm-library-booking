@@ -1,0 +1,12 @@
+{
+  "name": "srm-library-booking",
+  "version": "1.0.0",
+  "description": "SRM AP Library Seat Booking System",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "build": "cd frontend && npm run build"
+  }
+}
