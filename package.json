@@ -6,7 +6,7 @@
     "start": "cd backend && npm start",
     "install-all": "npm run install-backend && npm run install-frontend",
     "install-backend": "cd backend && npm install",
-    "install-frontend": "cd frontend && npm install",
+    "install-frontend": "cd frontend && npm install --include=dev",
     "build": "cd frontend && npm run build"
   }
 }
